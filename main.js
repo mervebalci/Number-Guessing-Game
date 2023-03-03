@@ -1,5 +1,6 @@
 document.querySelector('button').addEventListener('click', () => {
     let userInput = document.getElementById('input').value
+    input.value = ""
 
     // Showing user the number they guessed
     // alert(`You guessed ${userInput}!`)
@@ -18,8 +19,9 @@ document.querySelector('button').addEventListener('click', () => {
         } if (userInput < target) {
             let low = "Go higher..."
             return low
-        } if (userInput === target) {
-            return "Congratulations! You found it."
+        } if (userInput == target) {
+            let correct = "Congratulations! You found it."
+            return correct
         }
     }
     // Calling the function
