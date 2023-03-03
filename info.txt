@@ -1,0 +1,8 @@
+    Number-Guessing Game
+* Ask the player to guess a mystery number between 0 and 99.
+* Allow the player to enter a guess in a textfield by clicking a button.
+* Use an if statement to figure out if the number entered is 
+    greater than, 
+    less than, 
+    or the same as the mystery number.
+* Display a message that tells the player if they guessed too low, too high, or correct.

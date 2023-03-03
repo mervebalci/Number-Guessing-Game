@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(48, 65, 219);
+    padding-left: 30px;
+    color: aliceblue;
+    font-family: system-ui;
+    font-size: x-large;
+}
+
+#info {
+    color: aliceblue;
+    font-family: system-ui;
+    font-size: xx-large;
+}
+
+input {
+    font-size: large;
+    font-weight: 800;
+    color: rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: large;
+    font-weight: 800;
+    color: rgb(54, 54, 54);
+    margin-left: 15px;
+    padding: 10px;
+    background-color: rgb(245, 245, 30);
+    border-radius: 10px;
+}
