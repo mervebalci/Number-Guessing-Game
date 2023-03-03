@@ -5,4 +5,7 @@
     greater than, 
     less than, 
     or the same as the mystery number.
-* Display a message that tells the player if they guessed too low, too high, or correct.
+* Display a message that tells the player if they guessed 
+    too low, 
+    too high, 
+    or correct.
