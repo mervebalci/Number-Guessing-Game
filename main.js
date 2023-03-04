@@ -1,3 +1,10 @@
+// Math.random() method returns a random number from 0 (inclusive) up to but not including 1 (exclusive).
+let randomNumber = Math.random() * 100
+
+// Converting float value into integer
+let target = Math.round(randomNumber)
+
+
 document.querySelector('button').addEventListener('click', () => {
     let userInput = document.getElementById('input').value
     input.value = ""
@@ -12,7 +19,7 @@ document.querySelector('button').addEventListener('click', () => {
 
 
     function score(userInput) {
-        let target = 32
+        // let target = 32
         if (userInput > target) {
             let high = "Go lower..."
             return high
