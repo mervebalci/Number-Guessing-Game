@@ -1,6 +1,7 @@
 body {
     background-color: rgb(48, 65, 219);
     padding-left: 30px;
+    padding-top: 20px;
     color: aliceblue;
     font-family: system-ui;
     font-size: x-large;
@@ -13,6 +14,7 @@ body {
 }
 
 input {
+    width: 240px;
     font-size: large;
     font-weight: 800;
     color: rgb(54, 54, 54);
@@ -25,7 +27,10 @@ button {
     font-weight: 800;
     color: rgb(54, 54, 54);
     margin-left: 15px;
-    padding: 10px;
-    background-color: rgb(245, 245, 30);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(245, 245, 26);
     border-radius: 10px;
 }

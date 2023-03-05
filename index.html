@@ -8,7 +8,8 @@
     <body>
         <div id="user">
             <p id="info">I am thinking of a number between 0 and 99</p>
-            <input type="text" placeholder="Make your guess..." id="input"/>
+            <input id="input" placeholder="Make your guess..." type="number" min="0" max="99"
+            onkeypress="return event.charCode >= 48 && event.charCode <= 57"/>
             <button>Hit me!</button>
         </div>
         <script defer src="main.js"></script>

@@ -18,6 +18,10 @@ document.querySelector('button').addEventListener('click', () => {
     // div.insertAdjacentHTML('beforeend', message)
 
 
+    // Every programming language retrieves user input as a STRING.
+    // parseInt() forces user input to be interpreted as an INTEGER
+    userInput = parseInt(userInput)
+
     function score(userInput) {
         // let target = 32
         if (userInput > target) {
@@ -26,7 +30,7 @@ document.querySelector('button').addEventListener('click', () => {
         } if (userInput < target) {
             let low = "Go higher..."
             return low
-        } if (userInput == target) {
+        } if (userInput === target) {
             let correct = "Congratulations! You found it."
             return correct
         }
@@ -38,4 +42,14 @@ document.querySelector('button').addEventListener('click', () => {
     let message = `<p>You guessed ${userInput}! ${answer}</p>`
     let div = document.getElementById('user')
     div.insertAdjacentHTML('beforeend', message)
+})
+
+// Letting user to type ONLY 2 digits of number
+document.querySelector('input').addEventListener('keyup', () => {
+    let userInput = document.getElementById('input').value
+    if (userInput.length > 2) {
+        var digits = userInput.toString().split('');
+        number = "" + digits[0] + digits[1]
+        document.getElementById('input').value = number
+    }
 })
